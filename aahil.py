@@ -266,7 +266,6 @@ def pilih_super():
                 s = json.loads(re.text)
                 for i in s['data']:
                     id.append(i['id'])
-
             else:
                 if peak == '0' or peak == '00':
                     os.system('rm -rf cookie')
